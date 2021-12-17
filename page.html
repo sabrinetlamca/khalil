@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<title>Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+
+
+
+
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<header class="w3-container w3-teal ">
+<H1>DAHIYA TRANSPORTE</H1>
+</header>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+
+  <a href="#information" class="w3-button w3-bar-item">INFORMATION</a>
+  <a href="#activites" class="w3-button w3-bar-item">AKTIVITÄTEN</a>
+  <a href="#contact" class="w3-button w3-bar-item">KONTAKT</a>
+</nav>
+
+
+<!-- Slide Show -->
+<div class="container">
+<section>
+  <img class="mySlides" src="pictures/pic1.jpg"
+  style="width:100%">
+  <img class="mySlides" src="pictures/pic2.jpg"
+  style="width:100%">
+  <img class="mySlides" src="pictures/pic3.jpg"
+  style="width:100%">
+</section>
+ <div class="centered">
+   <h1 style="font-size:100px">Transporte über 3,5 t, Spedition und Logistik.</h1>
+ </div>
+</div>
+
+
+
+<div id="contact" class="w3-container">
+  <p><b>DAHIYA TRANSPORTE </b> ist ein Seehafen- und Logistikdienstleister mit einem internationalen Netzwerk. Uns stärkt die Erfahrung einer über 10-jährigen Unternehmensgeschichte. Heute sind wir mit unseren Standort in Bremen präsent. Für unsere Kunden aus Industrie und Handel gestalten wir die Logistik, indem wir mit hoher Fachkompetenz passgenaue und zukunftsfähige Lösungen entwickeln und umsetzen. In der unserer Transportlogistik müssen täglich räumliche Distanzen überbrückt werden. Dabei steht das Optimieren von Transportwegen an erster Stelle. Ein wichtiger Bestandteil ist dabei nicht nur die Maschine, sondern auch die Optimierung von Mensch und Maschine, um Wege zu verkürzen und Abläufe so effizient wie möglich zu gestalten.
+    </p>    
+
+</div>
+
+<div class="w3-row-padding w3-section">
+
+  <div class="w3-half">
+    <div class="w3-card">
+      <img src="pictures/pic2.jpg"  style="width:100%">
+      <div class="w3-container">
+        <h3 id="information">Über uns</h3>
+        <p>Dahiya Transporte mit Sitz in Weyhe ist in der Creditreform Firmendatenbank mit der Rechtsform Gewerbebetrieb eingetragen. Die offizielle Firmierung für Dahiya Transporte lautet Khalil Dahiya Transporte. Das Unternehmen ist wirtschaftsaktiv. Das Unternehmen wird derzeit von einem Manager (1 x Inhaber) geführt. Die Steuernummer des Unternehmens ist in den Firmendaten verfügbar. Das Unternehmen verfügt über 2 Standorte. Sie haben zudem die Möglichkeit Anfragen per E-Mail an E-Mail-Adresse anzeigen zu versenden. Für den postalischen Schriftverkehr nutzen Sie bitte die Firmenadresse Aachener Str. 35, 28844 Weyhe, Niedersachsen, Deutschland.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-half">
+    <div class="w3-card">
+      <img src="pictures/pic3.jpg" style="width:100%">
+      <div class="w3-container">
+        <h3 id="activites">UNSERE AKTIVITÄTEN</h3>
+        <p>  In der unserer Transportlogistik müssen täglich räumliche Distanzen überbrückt werden. Dabei steht das Optimieren von Transportwegen an erster Stelle.</br> Ein wichtiger Bestandteil ist dabei nicht nur die Maschine, sondern auch die Optimierung von Mensch und Maschine, um Wege zu verkürzen und Abläufe so effizient wie möglich zu gestalten.</br>
+        Wir kümmern uns um sämtliche Phasen innerhalb aller Logistikprozesse.</br>
+        Wir realisieren das, was Sie wollen und brauchen.
+      
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="w3-row-padding w3-section">
+  
+     <section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <img src="pictures/pic4.jpg" alt="Random Name" style="width:80%">
+ 
+  </article>
+  <article class="text-center ">
+     <div class="col-sm-4">
+      <h3>Kontakt </h3>
+      <p>Aachener Str.35 28844 weyehe</p>
+      <p>017620796002</p>
+      <p>khalildaiya.com</p>
+    </div>
+    
+  </article>
+</section>
+
+
+<footer  class="w3-container w3-center w3-teal">
+  <h5>Verbindungen</h5>
+  <a href="https://www.facebook.com/dahiya.khalil.1"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://web2.cylex.de/firma-home/dahiya-transporte-13782299.html"><i class="fa fa-pinterest-p"></i></a>
+  <a href="https://www.firmenwissen.com/en/az/firmeneintrag/28844/2051025898/KHALIL_DAHIYA_TRANSPORTE.html"><i class="fa fa-flickr"></i></a>
+ 
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
